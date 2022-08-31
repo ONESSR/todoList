@@ -1,2 +1,5 @@
 # todoList
-simple todoList using javascript (add/delete functionality only)
+
+A simple todoList using javascript with add & delete functionality
+
+See it live: https://onessr.github.io/todoList/
