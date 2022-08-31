@@ -8,7 +8,7 @@
 
 Timeframe:
 
-- 10am, Wednesday 31 August
+- 24hrs
 
 #### Approach:
 
