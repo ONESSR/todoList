@@ -1,3 +1,4 @@
+/* RESET STYLES */
 *,
 *::before,
 *::after {
@@ -11,11 +12,13 @@
   vertical-align: baseline;
 }
 
+/* GENERAL BODY STYLES */
 body {
   font-family: "Poppins", sans-serif;
   padding: 24px;
 }
 
+/* MAIN CONTAINER */
 .mainContainer {
   background-color: #343a40;
   max-width: 440px;
@@ -25,9 +28,6 @@ body {
   height: 100vh;
   max-height: 440px;
   overflow-y: auto;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .todoHeading {
@@ -38,6 +38,7 @@ body {
   color: #f8f9fa;
 }
 
+/* INPUT ELEMENT */
 .inputArea {
   display: flex;
   flex-direction: row;
@@ -55,6 +56,7 @@ body {
   width: 100%;
 }
 
+/* ADD BUTTON */
 #addBtn {
   height: 40px;
   width: 40px;
@@ -68,6 +70,7 @@ body {
   color: #f8f9fa;
 }
 
+/* BUTTON STATES */
 #addBtn:hover {
   background-color: #087f5b;
 }
@@ -76,6 +79,7 @@ body {
   background-color: red;
 }
 
+/* SUB-HEADING */
 .todoListHeading {
   font-size: 18px;
   font-weight: 600;
