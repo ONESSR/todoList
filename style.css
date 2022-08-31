@@ -87,6 +87,7 @@ body {
   color: #f8f9fa;
 }
 
+/* SHOWING TODOS */
 #displayTodosList {
   margin-top: 32px;
   list-style: none;
@@ -106,6 +107,7 @@ body {
   margin-bottom: 16px;
 }
 
+/* DELETE BUTTON */
 .deleteBtn {
   background-color: #ff6b6b;
   color: #f8f9fa;
