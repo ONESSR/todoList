@@ -53,7 +53,7 @@ function displayTodos() {
 // delete todo based on index received
 function deleteTodo(index) {
   storeTodos = storeTodos.filter((todo, i) => i !== index);
-  storeTodos.splice(index, 1);
+  // storeTodos.splice(index, 1);
   console.log(storeTodos);
   displayTodos();
 }
