@@ -30,7 +30,7 @@ Timeframe:
     - select element by id ✅
     - add event listener onchange ❌: not required
     - e.target.value ✅: event is depreciated?(look into this)
-    - if using a form setup prevent default as there is no action or method ❌: not required
+    - if using a form setup prevent default as there is no action or method ✅: used on eventListener keypress for ENTER to add todo.
 
 - User must be able to submit a todo
 
