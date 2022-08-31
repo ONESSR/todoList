@@ -1,2 +1,2 @@
 # todoList
-simple todoList using js (add/delete functionality)
+simple todoList using javascript (add/delete functionality only)
