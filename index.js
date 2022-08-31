@@ -1,5 +1,15 @@
 // add click event to button
 document.getElementById("addBtn").addEventListener("click", handleClick);
+document
+  .getElementById("todoInput")
+  .addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+      // Cancel default action
+      event.preventDefault();
+      // Perform this action instead
+      document.getElementById("addBtn").click();
+    }
+  });
 
 // confirm button was clicked and store value of todo in object
 // push object to array
