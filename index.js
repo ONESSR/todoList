@@ -11,6 +11,7 @@ function handleClick() {
 
   // declare object to be used
   let todo = {};
+
   // store value of input currently
   let inputValue = document.getElementById("todoInput").value;
 
@@ -30,7 +31,6 @@ function handleClick() {
 }
 
 // make items in array appear on screen
-
 function displayTodos() {
   let layout = "";
 
@@ -38,30 +38,19 @@ function displayTodos() {
     let todo = value.message;
     let id = value.id;
     layout += `
-      
-       <li id=${id} class="liItem">
-        <span class="todoTextContainer">${todo} </span>
-        <span class="deleteBtnContainer">
-          <button class="deleteBtn" onclick="deleteTodo(${index})">-</button>
-        </span>
-        </li>
+      <li id=${id} class="liItem">
+      <span class="todoTextContainer">${todo} </span>
+      <span class="deleteBtnContainer">
+      <button class="deleteBtn" onclick="deleteTodo(${index})">-</button>
       </span>
-       
+      </li>
+      </span>
     `;
   });
   document.getElementById("displayTodosList").innerHTML = layout;
 }
 
-// function deleteTodo(index) {
-//   var ulElem = document.getElementById("displayTodosList");
-
-//   ulElem.removeChild(ulElem.childNodes[index]);
-
-// liItems[index].parentNode.removeChild(liItems[index]);
-// storeTodos.splice(index, 1);
-// console.log("storeTodos", storeTodos);
-// }
-
+// delete todo based on index received
 function deleteTodo(index) {
   storeTodos = storeTodos.filter((todo, i) => i !== index);
   storeTodos.splice(index, 1);
