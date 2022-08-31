@@ -49,10 +49,12 @@ function displayTodos() {
     let id = value.id;
     layout += `
       <li id=${id} class="liItem">
-      <span class="todoTextContainer">${todo} </span>
-      <span class="deleteBtnContainer">
-      <button class="deleteBtn" onclick="deleteTodo(${index})">-</button>
-      </span>
+        <span class="todoTextContainer">
+          ${todo} 
+        </span>
+        <span class="deleteBtnContainer">
+          <button class="deleteBtn" onclick="deleteTodo(${index})">-</button>
+        </span>
       </li>
       
     `;
