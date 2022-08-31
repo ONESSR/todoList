@@ -64,5 +64,5 @@ Timeframe:
 
 #### Wireframes:
 
-![todoList lo-fi wireframes](_assets/todo_lofi-wireframes.png)
-![todoList lo-fi wireframes](_assets/todo_midfi-wireframes_desktop.png)
+![todoList Figma lo-fi wireframes](_assets/todo_lofi-wireframes.png)
+![todoList Figma hi-fi wireframes](_assets/todo_midfi-wireframes_desktop.png)
