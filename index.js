@@ -54,7 +54,7 @@ function displayTodos() {
       <button class="deleteBtn" onclick="deleteTodo(${index})">-</button>
       </span>
       </li>
-      </span>
+      
     `;
   });
   document.getElementById("displayTodosList").innerHTML = layout;

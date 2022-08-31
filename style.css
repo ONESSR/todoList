@@ -22,7 +22,8 @@ body {
 /* MAIN CONTAINER */
 .mainContainer {
   background-color: #343a40;
-  min-width: 440px;
+  max-width: 440px;
+  width: 100%;
   margin: 0 auto;
   padding: 24px;
   border-radius: 16px;
@@ -106,6 +107,15 @@ body {
 
 #displayTodosList li:not(:last-of-type) {
   margin-bottom: 16px;
+}
+
+.liItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.deleteBtnContainer {
+  align-self: flex-start;
 }
 
 /* DELETE BUTTON */

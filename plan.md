@@ -56,6 +56,7 @@ Timeframe:
 - user wants to edit todo
 - add time and date of todo submission
 - checkBox or strikeThrough for completed todos
+- counter for number of todos in list
 - design and styling (make UI error proof)
 - responsive layout
 
