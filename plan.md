@@ -6,7 +6,7 @@
 - Be sure to use arrays and objects within the creation of the list.
 - Submit via Github repo link
 
-Timeframe:
+#### Timeframe:
 
 - 24hrs
 
@@ -43,12 +43,13 @@ Timeframe:
       - if adding delete functionality add delete button to each todo added ✅
 
 - When todo is submitted it must go somewhere ✅
-  - ## add section for ul, li and give id ✅
+  - add section for ul, li and give id ✅
 
 #### Features:
 
 - user wants to delete a todo ✅
   - button (delete icon / -) ✅
+  - .filter() out the deleted todo
 
 #### Stretch goals:
 
@@ -62,7 +63,7 @@ Timeframe:
 - use ccs variables for dry, kiss, clean code
 - refactor js to make code cleaner and more efficient where required
 
-#### Wireframes:
+#### Figma Wireframes:
 
 ![todoList Figma lo-fi wireframes](_assets/todo_lofi-wireframes.png)
 ![todoList Figma hi-fi wireframes](_assets/todo_midfi-wireframes_desktop.png)
