@@ -22,7 +22,7 @@ body {
 /* MAIN CONTAINER */
 .mainContainer {
   background-color: #343a40;
-  max-width: 440px;
+  min-width: 440px;
   margin: 0 auto;
   padding: 24px;
   border-radius: 16px;
