@@ -58,7 +58,9 @@ Timeframe:
 - checkBox or strikeThrough for completed todos
 - counter for number of todos in list
 - design and styling (make UI error proof)
-- responsive layout
+- responsive layout ✅
+- use ccs variables for dry, kiss, clean code
+- refactor js to make code cleaner and more efficient where required
 
 #### Wireframes:
 
