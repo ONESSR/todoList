@@ -2,4 +2,4 @@
 
 A simple todoList using javascript with add & delete functionality
 
-See it live: https://onessr.github.io/todoList/
+See it live: https://onessr.github.io/todoListJs/
